@@ -1,0 +1,108 @@
+body{
+    background-color: rgb(252, 250, 250);
+}
+
+.title {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.clear{
+    color: red;
+    border: none;
+    background-color: transparent;
+}
+
+.image{
+    width: 100%;
+    height: 15vw;
+    object-fit:contain;
+
+}
+
+
+.kart{
+    display: flex !important;
+   flex-wrap: wrap;
+}
+
+.card{
+    /* height: 500px !important; */
+    width: 300px !important;
+    margin-top: 25px !important;
+    border-radius: 0px ;
+    border: 1px solid rgb(231, 229, 229) ;
+}
+
+
+.card-title{
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 14px;
+    margin-top: 40px;
+}
+
+.price_style{
+    margin-top: 25px;
+    font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.select-box{
+    padding :8px;
+    border: 1px solid rgb(231, 229, 229);
+    -webkit-box-shadow: 15px 23px 215px -12px rgba(0,0,0,0.66);
+    -moz-box-shadow: 15px 23px 215px -12px rgba(0,0,0,0.66);
+    box-shadow: 15px 23px 215px -12px rgba(0,0,0,0.66);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    outline: none !important;
+}
+
+
+.yt-icon-color {
+    color: red;
+    display: flex;
+    justify-content: flex-end !important;
+}
+
+.comment-count{ 
+    color: grey;
+    font-size: 13px;
+    opacity: 0.50;
+}
+
+.star-style{
+    color:orange;
+}
+
+
+.stars-outer {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+  }
+  
+  .stars-outer::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #ccc;
+  }
+  
+  .stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #f8ce0b;
+  }
+  
